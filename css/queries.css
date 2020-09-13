@@ -1,0 +1,97 @@
+/*Big tablet to 1200px*/
+@media only screen and (max-width: 1200px){
+	html{
+		font-size: 20px;
+	}
+}
+
+/*Small tablet to Big tablet from 168px to 1230px*/
+@media only screen and (max-width: 1024px){
+    html{
+        font-size: 30px;
+    }
+	.top{
+        height: 50vh;
+    }.container article section{
+        font-size: 25px;
+    }
+    .descrip li{
+        font-size: 23px;
+    }
+}
+
+/*Small phones to small tablets */
+@media only screen and (max-width: 768px){
+	html{
+        font-size: 20px;
+    }
+    .container article section{
+        font-size: 18px;
+    }
+    .descrip li{
+        font-size: 16px;
+    }
+}
+/*Small phones from 0 to 480px */
+@media only screen and (max-width: 480px){
+	html{
+        font-size: 14px;
+    }
+    .bubble img{
+        width: 40px;
+    }
+    .banner{
+        background-size: 200%;
+        background-position: top;
+    }
+    section .container .wrapper{
+        margin: auto 35px;
+    }
+    .container h1{
+        font-size: 16px;
+        padding-top: 20px;
+    }
+    .container p{
+        font-size: 12px;
+    }
+    .version h2{
+        font-size: 16px;
+    }
+    article header h1{
+        font-size: 16px;
+    }
+    .container article section{
+        font-size: 12px;
+        margin: 10px 15px;
+    }
+    .container article section a{
+        padding: 3px 6px;
+        margin-right: 8px;
+        margin-left: 6px;
+    }
+    .descrip section{
+        padding: 10px 18px;
+    }
+    .descrip h2{
+        font-size: 16px;
+    }
+    .descrip li{
+        font-size: 10px;
+        line-height: 15px;
+    }
+    footer{
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer li{
+        margin-top: 5px;
+    }
+}
+
+
+
+
+
+
+
